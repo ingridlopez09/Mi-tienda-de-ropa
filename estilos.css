@@ -1,0 +1,88 @@
+
+body{
+  font-family: segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #01920;
+  margin: 0;
+  padding: 0;
+}
+header,footer{
+  background-color: green;
+  color: burlywood;
+  padding: 1em;
+  text-align: center;
+}
+nav ul{
+  list-style: none;
+  padding: 0;
+}
+nav ul li{
+  display: inline;
+  margin: 0 1em;
+}
+nav ul li a{
+  color: #fff;
+  text-decoration:none;
+}
+.busqueda{
+  text-align: center;
+  margin-bottom: 1em;
+}
+#buscador{
+  width: 60%;
+  padding: 0.sem;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius:5px;
+}
+main{
+  padding:1em;
+}
+productos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.producto{
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #rgba(0, 0, 0, 0.1);
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+  width: 220px;
+  transition: transform 0.2s;
+}
+.producto:hover{
+  transform: scale(1.05);
+}
+.producto img{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.descricion{
+  font-size: 0.9em;
+  color: #555;
+}
+.precio{
+  font-weight: bold;
+  color: lightpink;
+  margin:0.5em 0;
+}
+.rating{
+  color: antiquewhite;
+  margin-buttom: 0.5em;
+}
+button{
+  background-color: #ffd814;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button-horver{
+  background-color: powderblue;
+}
+
+
